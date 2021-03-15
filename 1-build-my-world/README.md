@@ -20,8 +20,8 @@
 
 ## Structure
 ```
-.RoboND-Build-My-World             # Build My World Project 
-├── model                          # Model files 
+.RoboND-Build-My-World             
+├── model                          
 │   ├── Home
 │   │   ├── model.config
 │   │   ├── model.sdf
@@ -31,10 +31,26 @@
 │   ├── Table
 │   │   ├── model.config
 │   │   ├── model.sdf
-├── script                         # Plugin files 
+├── script                         
 │   ├── welcome.cpp
-├── world                          # World files
+├── world                          
 │   ├── UdacityOffice.world
 ├── CMakeLists.txt
 └──   
+
+.
+└── 1-build-my-world              
+    ├── build.sh
+    ├── CMakeLists.txt
+    ├── model                    # Model files 
+    │   ├── area98
+    │   └── car99
+    ├── README.md
+    ├── run.sh
+    ├── script                   # Plugin files 
+    │   └── hello.cpp
+    └── world                    # World files
+        └── my.world
+
+
 ```
