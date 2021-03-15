@@ -1,10 +1,23 @@
-# Project 1: Build My World
+
+# Robotics Workspace
+
+- [Robotics Workspace](#robotics-workspace)
+- [1. Project 1: Build My World](#1-project-1-build-my-world)
+	- [1.1. Structure](#11-structure)
+	- [1.2. Build Instructions](#12-build-instructions)
+		- [1.2.1. Alternate steps](#121-alternate-steps)
+- [2. Project 2: Go Chase It](#2-project-2-go-chase-it)
+	- [2.1. Structure](#21-structure)
+	- [2.2. Build Instructions](#22-build-instructions)
+
+
+
+# 1. Project 1: Build My World
 
 ![wheels](1-build-my-world/images/wheels.PNG) 
 ![myworld](1-build-my-world/images/my-world.PNG) 
 
-
-## Structure
+## 1.1. Structure
 
 Change the directory to project - `cd  1-build-my-world`
 
@@ -24,7 +37,7 @@ Change the directory to project - `cd  1-build-my-world`
         └── my.world
 ```
 
-## Build Instructions
+## 1.2. Build Instructions
 1. Make sure you have the following installed:
    - [ROS](http://wiki.ros.org/ROS/Installation)
    - Cmake
@@ -39,20 +52,20 @@ Change the directory to project - `cd  1-build-my-world`
 7. Go back to the project folder
 8. Launch Gazebo world `gazebo world/my.world`
 
-### Alternate steps
+### 1.2.1. Alternate steps
 1. `source build.sh` -> script builds the prodject like above.
 2. Launch the world by using `source run.sh` script.
 
 
 
-# Project 2: Go Chase It
+# 2. Project 2: Go Chase It
 
 Use ROS and Gazebo to build a mobile robot for chasing a white ball.
 
-<a href="https://www.youtube.com/watch?v=fugrDDqZiU8&" target="_blank">
-<img src="demo.gif" alt="demo" width="500" height="280"/></a>
+<!-- <a href="https://www.youtube.com/watch?v=fugrDDqZiU8&" target="_blank">
+<img src="demo.gif" alt="demo" width="500" height="280"/></a> -->
 
-## Structure
+## 2.1. Structure
 
 
 **my_robot**: This package defines the world and the robot.
@@ -125,7 +138,7 @@ Use ROS and Gazebo to build a mobile robot for chasing a white ball.
 		└── willow_garage.world
 ```
 
-## Build Instructions
+## 2.2. Build Instructions
 1. Make sure you have the following installed:
    - [ROS](http://wiki.ros.org/ROS/Installation)
    - Cmake
