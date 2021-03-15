@@ -1,10 +1,13 @@
 # Project 1: Build My World
 
-![wheels](images/wheels.PNG) 
-![myworld](images/my-world.PNG) 
+![wheels](1-build-my-world/images/wheels.PNG) 
+![myworld](1-build-my-world/images/my-world.PNG) 
 
 
 ## Structure
+
+Change the directory to project - `cd  1-build-my-world`
+
 ```
 .
 └── 1-build-my-world              
