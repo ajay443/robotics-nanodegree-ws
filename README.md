@@ -3,12 +3,13 @@
 
 - [Robotics Workspace](#robotics-workspace)
 - [1. Project 1: Build My World](#1-project-1-build-my-world)
-	- [1.1. Structure](#11-structure)
-	- [1.2. Build Instructions](#12-build-instructions)
-		- [1.2.1. Alternate steps](#121-alternate-steps)
+  - [1.1. Structure](#11-structure)
+  - [1.2. Build Instructions](#12-build-instructions)
+    - [1.2.1. Alternate steps](#121-alternate-steps)
 - [2. Project 2: Go Chase It](#2-project-2-go-chase-it)
-	- [2.1. Structure](#21-structure)
-	- [2.2. Build Instructions](#22-build-instructions)
+  - [2.1. Structure](#21-structure)
+  - [2.2. Build Instructions](#22-build-instructions)
+    - [Alternate steps](#alternate-steps)
 
 
 
@@ -60,6 +61,7 @@ Change the directory to project - `cd  1-build-my-world`
 
 # 2. Project 2: Go Chase It
 
+![drive_bot](2-go-chase-robot/drive_bot.PNG) 
 Use ROS and Gazebo to build a mobile robot for chasing a white ball.
 
 <!-- <a href="https://www.youtube.com/watch?v=fugrDDqZiU8&" target="_blank">
@@ -162,3 +164,8 @@ $ source devel/setup.bash
 $ roslaunch ball_chaser ball_chaser.launch
 ```
 7. Pick up the white ball and place in front of the mobile robot. The robot will follow the ball.
+
+### Alternate steps
+1. `source build.sh` -> script builds the prodject like above.
+2. Launch the world by using `source run-my-robot-world.sh` script.
+3. Launch the drive_bot node using `source run-drive-bot-node.sh` script
