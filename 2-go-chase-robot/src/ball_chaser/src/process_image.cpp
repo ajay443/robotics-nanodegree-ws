@@ -28,9 +28,9 @@ void process_image_callback(const sensor_msgs::Image img)
     ROS_INFO_STREAM("Processing the Image");
     auto drive = false;
     // Image data --> uint8[] data          # actual matrix data, size is (step * rows)
-    int white_pixel = 255;
+    uint8_t white_pixel = 255;
     for (int i = 0; i < img.height * img.step; i+=3) { 
-        if (img[i] == white_pixel && img[i+1] == white_pixel && img[i+2] == white_pixel) {
+        if (img.data[i] == white_pixel && img.data[i+1] == white_pixel && img.data[i+2] == white_pixel) {
             auto col = i % img.step;
             if (col < img.step * 0.4) {
                 drive_robot(0.5, 1.0);          // Left
