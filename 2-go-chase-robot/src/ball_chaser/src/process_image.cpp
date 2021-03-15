@@ -33,9 +33,9 @@ void process_image_callback(const sensor_msgs::Image img)
         if (img[i] == white_pixel && img[i+1] == white_pixel && img[i+2] == white_pixel) {
             auto col = i % img.step;
             if (col < img.step * 0.4) {
-                drive_robot(0.5, 1.0)          // Left
+                drive_robot(0.5, 1.0);          // Left
             }else if (col > img.step * 0.6) {
-                drive_robot(0.5, -1.0)         // Right
+                drive_robot(0.5, -1.0);         // Right
             }else {
                 drive_robot(0.5, 0.0);         // mid 
             }
