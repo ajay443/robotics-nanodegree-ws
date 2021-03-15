@@ -61,7 +61,7 @@ Change the directory to project - `cd  1-build-my-world`
 
 # 2. Project 2: Go Chase It
 
-![drive_bot](2-go-chase-robot/drive_bot.PNG) 
+![drive_bot](2-go-chase-robot/images/drive_bot.PNG) 
 Use ROS and Gazebo to build a mobile robot for chasing a white ball.
 
 <!-- <a href="https://www.youtube.com/watch?v=fugrDDqZiU8&" target="_blank">
