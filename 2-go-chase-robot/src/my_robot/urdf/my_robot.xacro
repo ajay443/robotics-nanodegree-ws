@@ -23,14 +23,14 @@
         <collision name='collision'>
             <origin xyz="0 0 0" rpy=" 0 0 0" />
             <geometry>
-                <box size=".4 .2 .1" />
+                <box size=".412 .206 .103" /> <!-- BEGIN: Adjusted chassis dimensions -->
             </geometry>
         </collision>
 
         <visual name='chassis_visual'>
             <origin xyz="0 0 0" rpy=" 0 0 0" />
             <geometry>
-                <box size=".4 .2 .1" />
+                <box size=".412 .206 .103" /> <!-- BEGIN: Adjusted chassis dimensions -->
             </geometry>
         </visual>
 
@@ -79,14 +79,14 @@
         <collision name='left_wheel_collision'>
             <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707" />
             <geometry>
-                <cylinder length="0.05" radius="0.1" />
+                <cylinder length="0.05" radius="0.103" /> <!-- BEGIN: Adjusted wheel radius -->
             </geometry>
         </collision>
 
         <visual name='left_wheel_visual'>
             <origin xyz="0 0 0" rpy=" 0 1.5705 1.5707" />
             <geometry>
-                <cylinder length="0.05" radius="0.1" />
+                <cylinder length="0.05" radius="0.103" /> <!-- BEGIN: Adjusted wheel radius -->
             </geometry>
         </visual>
 
@@ -113,14 +113,14 @@
         <collision name='right_wheel_collision'>
             <origin xyz="0 0 0" rpy=" 0 1.5707 1.5707" />
             <geometry>
-                <cylinder length="0.05" radius="0.1" />
+                <cylinder length="0.05" radius="0.103" /> <!-- BEGIN: Adjusted wheel radius -->
             </geometry>
         </collision>
 
         <visual name='right_wheel_visual'>
             <origin xyz="0 0 0" rpy=" 0 1.5705 1.5707" />
             <geometry>
-                <cylinder length="0.05" radius="0.1" />
+                <cylinder length="0.05" radius="0.103" /> <!-- BEGIN: Adjusted wheel radius -->
             </geometry>
         </visual>
 
